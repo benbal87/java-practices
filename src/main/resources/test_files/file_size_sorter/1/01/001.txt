@@ -1,0 +1,15 @@
+Egy osztály példányait a new (új) operátorral hozhatjuk létre. A new után meg kell
+adni a létrehozandó objektum osztályát, ezt a konstruktor aktuális paraméterlistája követi:
+ new <OsztályAzonosító>(<aktuális paraméterlista>)
+A new operátor feladatai:
+- Létrehoz egy új, OsztályAzonosító osztályú objektumot; lefoglalja számára a szükséges
+memóriát;
+- Meghívja az osztálynak azt a konstruktorát, amelynek szignatúrájára ráhúzható az aktu-
+ális paraméterlista;
+- Visszaadja az újdonsült objektum referenciáját (azonosítóját). Az objektum osztálya az
+lesz, amit a new után megadtunk.
+A konstruktor beállítja az objektum kezdeti állapotát (kezdeti értéket ad az adatoknak és
+az esetleges kapcsolatoknak). A konstruktor neve megegyezik az osztály nevével. Egy
+osztálynak több konstruktora is lehetséges.
+Az objektum egész élete során a new után megadott osztályhoz fog tartozni, osztályát megváltoztatni
+nem lehet. 
